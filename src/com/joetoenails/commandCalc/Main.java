@@ -69,7 +69,7 @@ public class Main {
 
         LocalDate newDate = startDate.plusDays(daysToAdd);
 
-        String output = String.format("%s plus %d days is %s",startDate,daysToAdd,newDate);
+        String output = String.format("%s plus %d days is %s!",startDate,daysToAdd,newDate);
         System.out.println(output);
     }
 
